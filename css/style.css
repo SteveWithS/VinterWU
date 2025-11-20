@@ -60,3 +60,27 @@ main article img {
     grid-area: ft;
     background-color: white
 }
+
+
+
+
+
+
+
+
+
+#wrapper{
+    background-color: white;
+    display: grid;
+    height: 130vh;
+    grid-template-columns: 1fr 25vw 20vw;
+    grid-template-rows: 15vh 1fr 1fr 30vh;
+    gap: 10px;
+    margin: 0;
+    grid-template-areas: 
+    'hd2 hd2 hd2'
+    'mn2 mn2 na2'
+    'di2 se2 na2'
+    'ft2 ft2 ft2';
+}
+
