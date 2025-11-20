@@ -1,0 +1,62 @@
+#container{
+    background-color: white;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20vw 1fr 20vw;
+    grid-template-rows: 15vh 1fr 5vh;
+    gap: 10px;
+    margin: 0;
+    grid-template-areas: 
+    'hd hd hd'
+    'as mn di'
+    'as ft di';
+}
+
+#hd{
+    grid-area: hd;
+    background-color: whitesmoke;
+    text-align: center;
+    color: #3498db;
+    font-size: x-large;
+    padding-top: 10px;
+    
+}
+
+#mn{
+    grid-area: mn;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+main article {
+    width:30%;
+    height:35vh;
+    background-color: #3498db;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+main article img {
+    width: 100%;
+    height: 60%;
+    display: block;
+    object-fit: cover;
+}
+
+#as{
+    grid-area: as;
+    background-color: white
+}
+
+#di{
+    grid-area: di;
+    background-color: white
+}
+
+#ft{
+    grid-area: ft;
+    background-color: white
+}
