@@ -53,6 +53,7 @@ main article {
     background-color: #3498db;
     border-radius: 10px;
     overflow: hidden; 
+    text-align: center;
 }
 
 main article img {
@@ -60,6 +61,11 @@ main article img {
     height: 60%;
     display: block;
     object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #as{
@@ -84,7 +90,7 @@ main article img {
 
 
 #wrapper{
-    background-color: white;
+    background-color: whitesmoke;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 25vw 15vw;
@@ -100,7 +106,7 @@ main article img {
 
 #hd2{
     grid-area: hd2;
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     color: #3498db;
     font-size: x-large;
@@ -109,7 +115,7 @@ main article img {
 
 #mn2{
     grid-area: mn2;
-    background-color: #3498db;
+    background-color: white;
     border-radius: 50px;
     padding-left: 20px;
     padding-right: 10px;
@@ -144,7 +150,7 @@ main article img {
 
 #di2{
     grid-area: di2;
-    background-color: #3498db;
+    background-color:white;
     border-radius: 50px;
     padding-left: 20px;
     padding-right: 10px;
@@ -162,4 +168,21 @@ main article img {
 #ft2{
     grid-area: ft2;
     background-color: white;
+}
+
+
+
+
+
+
+#colos{
+    background-color: whitesmoke;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: vw;
+    grid-template-rows: vh;
+    gap: 10px;
+    margin: 0;
+    grid-template-areas: 
+    
 }
