@@ -1,5 +1,5 @@
 #container{
-    background-color: white;
+    background-color: whitesmoke;
     display: grid;
     height: 100vh;
     grid-template-columns: 20vw 1fr 20vw;
@@ -14,7 +14,7 @@
 
 #hd{
     grid-area: hd;
-    background-color: whitesmoke;
+    background-color: white;
     
     color: #3498db;
     font-size: x-large;
@@ -40,7 +40,7 @@
 
 #mn{
     grid-area: mn;
-    background-color: white;
+    background-color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -66,21 +66,26 @@ main article img {
 a{
     text-decoration: none;
     color: black;
+    transition: ease-in-out 0.2s;
+}
+
+a:hover{
+    font-size: xx-large;
 }
 
 #as{
     grid-area: as;
-    background-color: white
+    background-color: whitesmoke;
 }
 
 #di{
     grid-area: di;
-    background-color: white
+    background-color: whitesmoke;
 }
 
 #ft{
     grid-area: ft;
-    background-color: white
+    background-color: whitesmoke;
 }
 
 
@@ -167,7 +172,7 @@ a{
 
 #ft2{
     grid-area: ft2;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 
@@ -179,10 +184,52 @@ a{
     background-color: whitesmoke;
     display: grid;
     height: 100vh;
-    grid-template-columns: vw;
-    grid-template-rows: vh;
-    gap: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 60vh 1fr 5vh;
     margin: 0;
-    grid-template-areas: 
+    grid-template-areas:
+    'hdC'
+    'seC'
+    'mnC'
+    'ftC'; 
     
+}
+
+#hdC{
+    grid-area: hdC;
+    background-color: white;
+    
+    color: #3498db;
+    font-size: x-large;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#seC{
+    grid-area: seC;
+    background-image: url('../img/colo.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mnC{
+    grid-area: mnC;
+    background-color: white;
+    padding-left: 20px;
+}
+
+#ftC{
+    grid-area: ftC;
+    background-color: whitesmoke;
+}
+
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
 }
